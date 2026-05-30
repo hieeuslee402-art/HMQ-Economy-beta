@@ -32,15 +32,16 @@
       <div class="w-9 h-9 rounded-lg bg-gradient-to-br from-amber-500 to-yellow-500 flex items-center justify-center text-lg shadow-lg shadow-amber-500/25">🏦</div>
       <span class="font-bold text-lg text-white">HMQ-Economy</span>
       <span class="px-3 py-1 rounded-full text-xs font-medium border bg-amber-500/20 text-amber-400 border-amber-500/30 relative">
-        <span class="absolute inset-0 rounded-full animate-ping-slow bg-current opacity-30"></span>beta 1
+        <span class="absolute inset-0 rounded-full animate-ping-slow bg-current opacity-30"></span>beta 1.1
       </span>
     </div>
     <div class="hidden md:flex items-center gap-6 text-sm">
       <a href="#hero" class="nav-link text-amber-400 font-medium" data-tab="0">Tổng quan</a>
       <a href="#commands" class="nav-link text-zinc-400 hover:text-zinc-200 transition-colors" data-tab="1">Lệnh</a>
       <a href="#jobs" class="nav-link text-zinc-400 hover:text-zinc-200 transition-colors" data-tab="2">Nghề nghiệp</a>
-      <a href="#games" class="nav-link text-zinc-400 hover:text-zinc-200 transition-colors" data-tab="3">Games</a>
-      <a href="#rules" class="nav-link text-zinc-400 hover:text-zinc-200 transition-colors" data-tab="4">Luật chơi</a>
+      <a href="#savings" class="nav-link text-zinc-400 hover:text-zinc-200 transition-colors" data-tab="3">Sổ tiết kiệm</a>
+      <a href="#games" class="nav-link text-zinc-400 hover:text-zinc-200 transition-colors" data-tab="4">Games</a>
+      <a href="#rules" class="nav-link text-zinc-400 hover:text-zinc-200 transition-colors" data-tab="5">Luật chơi</a>
       <a href="https://discord.com/oauth2/authorize?client_id=1509237220966535389&permissions=8&integration_type=0&scope=bot" target="_blank" rel="noopener noreferrer" class="px-4 py-2 rounded-lg bg-gradient-to-r from-amber-500 to-yellow-500 text-black font-semibold text-sm hover:shadow-lg hover:shadow-amber-500/30 transition-all">Thêm Bot</a>
     </div>
   </div>
@@ -60,19 +61,19 @@
     </div>
     <h1 class="text-5xl sm:text-7xl font-extrabold mb-6 tracking-tight">
       <span class="bg-gradient-to-r from-amber-400 via-yellow-300 to-amber-500 bg-clip-text text-transparent">HMQ-Economy</span><br/>
-      <span class="text-white text-3xl sm:text-4xl">Beta 1 — Hệ thống kinh tế Discord</span>
+      <span class="text-white text-3xl sm:text-4xl">Beta 1.1 — Hệ thống kinh tế Discord</span>
     </h1>
     <p class="text-zinc-400 text-lg max-w-2xl mx-auto mb-8 leading-relaxed">
-      Bot economy tiếng Việt đầy đủ nhất với ngân hàng sinh lãi, đa dạng nghề nghiệp, casino (Blackjack, Slot, Bầu Cua, Tài Xỉu), vé số, và hệ thống nợ thông minh.
+      Bot economy tiếng Việt đầy đủ nhất với ngân hàng sinh lãi, sổ tiết kiệm x10, đa dạng nghề nghiệp, casino (Blackjack, Slot, Bầu Cua, Tài Xỉu), vé số, chứng chỉ lành nghề, và hệ thống nợ thông minh.
     </p>
     <div class="flex flex-wrap justify-center gap-4">
       <a href="https://discord.com/oauth2/authorize?client_id=1509237220966535389&permissions=8&integration_type=0&scope=bot" target="_blank" rel="noopener noreferrer" class="px-8 py-3.5 rounded-xl bg-gradient-to-r from-amber-500 to-yellow-500 text-black font-bold text-lg hover:shadow-xl hover:shadow-amber-500/30 transition-all hover:scale-105 inline-block">🚀 Thêm vào Discord</a>
       <a href="#commands" class="px-8 py-3.5 rounded-xl bg-white/5 border border-white/10 text-white font-semibold text-lg hover:bg-white/10 transition-all inline-block">📋 Xem lệnh</a>
     </div>
     <div class="mt-16 grid grid-cols-2 sm:grid-cols-4 gap-6 max-w-2xl mx-auto">
-      <div class="flex flex-col items-center gap-1"><span class="text-3xl font-bold bg-gradient-to-r from-amber-400 to-yellow-300 bg-clip-text text-transparent">15+</span><span class="text-sm text-zinc-400">Lệnh Slash</span></div>
+      <div class="flex flex-col items-center gap-1"><span class="text-3xl font-bold bg-gradient-to-r from-amber-400 to-yellow-300 bg-clip-text text-transparent">16+</span><span class="text-sm text-zinc-400">Lệnh Slash</span></div>
       <div class="flex flex-col items-center gap-1"><span class="text-3xl font-bold bg-gradient-to-r from-amber-400 to-yellow-300 bg-clip-text text-transparent">11</span><span class="text-sm text-zinc-400">Nghề nghiệp</span></div>
-      <div class="flex flex-col items-center gap-1"><span class="text-3xl font-bold bg-gradient-to-r from-amber-400 to-yellow-300 bg-clip-text text-transparent">6</span><span class="text-sm text-zinc-400">Game Casino</span></div>
+      <div class="flex flex-col items-center gap-1"><span class="text-3xl font-bold bg-gradient-to-r from-amber-400 to-yellow-300 bg-clip-text text-transparent">x10</span><span class="text-sm text-zinc-400">Sổ tiết kiệm</span></div>
       <div class="flex flex-col items-center gap-1"><span class="text-3xl font-bold bg-gradient-to-r from-amber-400 to-yellow-300 bg-clip-text text-transparent">0.01%</span><span class="text-sm text-zinc-400">Lãi/phút</span></div>
     </div>
   </div>
@@ -99,13 +100,15 @@
         </div>
       </div>
 
-      <!-- Nhóm 2: Ngân hàng -->
+      <!-- Nhóm 2: Ngân hàng & Tiết kiệm -->
       <div class="rounded-2xl bg-white/[0.03] border border-white/[0.06] overflow-hidden hover:border-white/10 transition-all">
-        <div class="bg-gradient-to-r from-emerald-500 to-teal-500 px-5 py-4 flex items-center gap-3"><span class="text-2xl">🏦</span><h3 class="font-bold text-black text-lg">🏦 Ngân hàng</h3></div>
+        <div class="bg-gradient-to-r from-emerald-500 to-teal-500 px-5 py-4 flex items-center gap-3"><span class="text-2xl">🏦</span><h3 class="font-bold text-black text-lg">🏦 Ngân hàng & Tiết kiệm</h3></div>
         <div class="p-5 space-y-3">
-          <div class="flex items-start gap-3 p-3 rounded-lg hover:bg-white/[0.03] transition-colors"><span class="text-xl mt-0.5 shrink-0">📥</span><div><code class="text-amber-400 font-mono text-sm bg-amber-500/10 px-2 py-0.5 rounded">/bank [số_tiền]</code><p class="text-zinc-400 text-sm mt-1">Gửi tiền vào ngân hàng, nhận lãi 0.01%/phút</p></div></div>
-          <div class="flex items-start gap-3 p-3 rounded-lg hover:bg-white/[0.03] transition-colors"><span class="text-xl mt-0.5 shrink-0">📊</span><div><code class="text-amber-400 font-mono text-sm bg-amber-500/10 px-2 py-0.5 rounded">/bankcheck</code><p class="text-zinc-400 text-sm mt-1">Xem tiền gốc + lãi trong ngân hàng</p></div></div>
-          <div class="flex items-start gap-3 p-3 rounded-lg hover:bg-white/[0.03] transition-colors"><span class="text-xl mt-0.5 shrink-0">📤</span><div><code class="text-amber-400 font-mono text-sm bg-amber-500/10 px-2 py-0.5 rounded">/ruttien [số_tiền]</code><p class="text-zinc-400 text-sm mt-1">Rút tiền từ ngân hàng (bỏ trống = rút hết)</p></div></div>
+          <div class="flex items-start gap-3 p-3 rounded-lg hover:bg-white/[0.03] transition-colors"><span class="text-xl mt-0.5 shrink-0">📊</span><div><code class="text-amber-400 font-mono text-sm bg-amber-500/10 px-2 py-0.5 rounded">/nganhang</code><p class="text-zinc-400 text-sm mt-1">Xem thông tin ngân hàng, lãi & hướng dẫn chi tiết</p></div></div>
+          <div class="flex items-start gap-3 p-3 rounded-lg hover:bg-white/[0.03] transition-colors"><span class="text-xl mt-0.5 shrink-0">📥</span><div><code class="text-amber-400 font-mono text-sm bg-amber-500/10 px-2 py-0.5 rounded">/guitien [số_tiền]</code><p class="text-zinc-400 text-sm mt-1">Gửi tiền vào NH — bỏ trống = gửi hết</p></div></div>
+          <div class="flex items-start gap-3 p-3 rounded-lg hover:bg-white/[0.03] transition-colors"><span class="text-xl mt-0.5 shrink-0">📤</span><div><code class="text-amber-400 font-mono text-sm bg-amber-500/10 px-2 py-0.5 rounded">/ruttien [số_tiền]</code><p class="text-zinc-400 text-sm mt-1">Rút tiền từ NH — bỏ trống = rút hết</p></div></div>
+          <div class="flex items-start gap-3 p-3 rounded-lg hover:bg-white/[0.03] transition-colors"><span class="text-xl mt-0.5 shrink-0">📒</span><div><code class="text-amber-400 font-mono text-sm bg-amber-500/10 px-2 py-0.5 rounded">/sotietkiem</code><p class="text-zinc-400 text-sm mt-1">Mở sổ tiết kiệm — sau 7 ngày nhận <b class="text-amber-300">x10</b></p></div></div>
+          <div class="flex items-start gap-3 p-3 rounded-lg hover:bg-white/[0.03] transition-colors"><span class="text-xl mt-0.5 shrink-0">❌</span><div><code class="text-amber-400 font-mono text-sm bg-amber-500/10 px-2 py-0.5 rounded">/huysotietkiem</code><p class="text-zinc-400 text-sm mt-1">Hủy sổ tiết kiệm, hoàn tiền gốc (không lãi)</p></div></div>
         </div>
       </div>
 
@@ -114,6 +117,7 @@
         <div class="bg-gradient-to-r from-purple-500 to-violet-500 px-5 py-4 flex items-center gap-3"><span class="text-2xl">💼</span><h3 class="font-bold text-black text-lg">💼 Kiếm tiền</h3></div>
         <div class="p-5 space-y-3">
           <div class="flex items-start gap-3 p-3 rounded-lg hover:bg-white/[0.03] transition-colors"><span class="text-xl mt-0.5 shrink-0">🔨</span><div><code class="text-amber-400 font-mono text-sm bg-amber-500/10 px-2 py-0.5 rounded">/work</code><p class="text-zinc-400 text-sm mt-1">Làm việc mỗi 30 phút — 9 nghề thường + 2 nghề đặc biệt. Mỗi nghề 100 lần nhận chứng chỉ giảm 10% thất bại.</p></div></div>
+          <div class="flex items-start gap-3 p-3 rounded-lg hover:bg-white/[0.03] transition-colors"><span class="text-xl mt-0.5 shrink-0">📜</span><div><code class="text-amber-400 font-mono text-sm bg-amber-500/10 px-2 py-0.5 rounded">/cert</code><p class="text-zinc-400 text-sm mt-1">Xem chứng chỉ lành nghề — mỗi nghề có thanh tiến độ riêng</p></div></div>
         </div>
       </div>
 
@@ -236,6 +240,98 @@
   </div>
 </section>
 
+<!-- ═══════════ SỔ TIẾT KIỆM ═══════════ -->
+<section id="savings" class="py-20 px-4 bg-gradient-to-b from-transparent via-amber-500/[0.03] to-transparent">
+  <div class="max-w-5xl mx-auto">
+    <div class="text-center mb-10">
+      <span class="text-5xl mb-4 block">📒</span>
+      <h2 class="text-3xl font-bold text-white mb-2">Sổ tiết kiệm <span class="bg-gradient-to-r from-amber-400 to-yellow-300 bg-clip-text text-transparent">x10</span></h2>
+      <p class="text-zinc-400 max-w-2xl mx-auto">Tính năng đặc biệt — gửi tiền, đợi 7 ngày, nhận tiền gấp 10 lần!</p>
+    </div>
+
+    <!-- 3 bước -->
+    <div class="grid md:grid-cols-3 gap-6 mb-10">
+      <div class="rounded-2xl p-6 bg-white/[0.03] border border-amber-500/20 relative overflow-hidden">
+        <div class="absolute top-0 right-0 w-24 h-24 bg-amber-500/5 rounded-full blur-2xl"></div>
+        <div class="relative">
+          <span class="inline-block text-4xl mb-3">1️⃣</span>
+          <h3 class="font-bold text-white text-lg mb-2">Mở sổ</h3>
+          <p class="text-zinc-400 text-sm">Dùng <code class="text-amber-400 bg-amber-500/10 px-1.5 py-0.5 rounded text-xs">/sotietkiem</code> — chọn nút <span class="text-emerald-400 font-semibold">✅ Có</span> rồi nhập số tiền muốn gửi.</p>
+        </div>
+      </div>
+      <div class="rounded-2xl p-6 bg-white/[0.03] border border-amber-500/20 relative overflow-hidden">
+        <div class="absolute top-0 right-0 w-24 h-24 bg-amber-500/5 rounded-full blur-2xl"></div>
+        <div class="relative">
+          <span class="inline-block text-4xl mb-3">2️⃣</span>
+          <h3 class="font-bold text-white text-lg mb-2">Chờ 7 ngày</h3>
+          <p class="text-zinc-400 text-sm">Tiền trong sổ được khóa 7 ngày. Dùng <code class="text-amber-400 bg-amber-500/10 px-1.5 py-0.5 rounded text-xs">/nganhang</code> để theo dõi tiến độ đáo hạn.</p>
+        </div>
+      </div>
+      <div class="rounded-2xl p-6 bg-gradient-to-br from-amber-500/10 to-yellow-500/5 border border-amber-500/30 relative overflow-hidden">
+        <div class="absolute top-0 right-0 w-24 h-24 bg-amber-500/10 rounded-full blur-2xl"></div>
+        <div class="relative">
+          <span class="inline-block text-4xl mb-3">3️⃣</span>
+          <h3 class="font-bold text-white text-lg mb-2">Nhận <span class="text-amber-400">x10</span></h3>
+          <p class="text-zinc-400 text-sm">Sau 7 ngày, tiền <span class="text-amber-400 font-bold">nhân 10</span> tự động chuyển vào tài khoản. Dùng <code class="text-amber-400 bg-amber-500/10 px-1.5 py-0.5 rounded text-xs">/cash</code> để nhận!</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Ví dụ -->
+    <div class="rounded-2xl bg-white/[0.03] border border-white/[0.06] overflow-hidden mb-6">
+      <div class="px-6 py-4 bg-gradient-to-r from-amber-600 to-yellow-500">
+        <h3 class="font-bold text-black text-lg">💡 Ví dụ minh họa</h3>
+      </div>
+      <div class="p-6 grid md:grid-cols-2 gap-6">
+        <div>
+          <h4 class="font-semibold text-white mb-3 flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-emerald-500"></span>Giữ đủ 7 ngày</h4>
+          <div class="space-y-2 text-sm">
+            <div class="flex justify-between p-2 rounded bg-white/[0.02]"><span class="text-zinc-400">Gửi vào sổ:</span><span class="text-amber-400 font-semibold">10.000$</span></div>
+            <div class="flex justify-between p-2 rounded bg-white/[0.02]"><span class="text-zinc-400">Chờ:</span><span class="text-zinc-300">7 ngày</span></div>
+            <div class="flex justify-between p-2 rounded bg-emerald-500/10 border border-emerald-500/20"><span class="text-emerald-300 font-semibold">Nhận về:</span><span class="text-emerald-400 font-bold">100.000$ 🎉</span></div>
+          </div>
+        </div>
+        <div>
+          <h4 class="font-semibold text-white mb-3 flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-red-500"></span>Hủy trước hạn</h4>
+          <div class="space-y-2 text-sm">
+            <div class="flex justify-between p-2 rounded bg-white/[0.02]"><span class="text-zinc-400">Gửi vào sổ:</span><span class="text-amber-400 font-semibold">10.000$</span></div>
+            <div class="flex justify-between p-2 rounded bg-white/[0.02]"><span class="text-zinc-400">Hủy sau:</span><span class="text-zinc-300">3 ngày</span></div>
+            <div class="flex justify-between p-2 rounded bg-red-500/10 border border-red-500/20"><span class="text-red-300 font-semibold">Nhận về:</span><span class="text-red-400 font-bold">10.000$ (gốc)</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Lệnh liên quan -->
+    <div class="grid sm:grid-cols-2 md:grid-cols-4 gap-3">
+      <div class="p-4 rounded-xl bg-white/[0.03] border border-white/[0.06] hover:border-amber-500/30 transition-all text-center">
+        <span class="text-2xl block mb-2">📒</span>
+        <code class="text-amber-400 text-sm">/sotietkiem</code>
+        <p class="text-xs text-zinc-500 mt-1">Mở sổ mới</p>
+      </div>
+      <div class="p-4 rounded-xl bg-white/[0.03] border border-white/[0.06] hover:border-amber-500/30 transition-all text-center">
+        <span class="text-2xl block mb-2">❌</span>
+        <code class="text-amber-400 text-sm">/huysotietkiem</code>
+        <p class="text-xs text-zinc-500 mt-1">Hủy sổ, hoàn gốc</p>
+      </div>
+      <div class="p-4 rounded-xl bg-white/[0.03] border border-white/[0.06] hover:border-amber-500/30 transition-all text-center">
+        <span class="text-2xl block mb-2">🏦</span>
+        <code class="text-amber-400 text-sm">/nganhang</code>
+        <p class="text-xs text-zinc-500 mt-1">Xem tiến độ</p>
+      </div>
+      <div class="p-4 rounded-xl bg-white/[0.03] border border-white/[0.06] hover:border-amber-500/30 transition-all text-center">
+        <span class="text-2xl block mb-2">💳</span>
+        <code class="text-amber-400 text-sm">/cash</code>
+        <p class="text-xs text-zinc-500 mt-1">Nhận khi đáo hạn</p>
+      </div>
+    </div>
+
+    <div class="mt-6 p-4 rounded-xl bg-amber-500/5 border border-amber-500/20 text-center text-sm text-zinc-400">
+      <span class="text-amber-400 font-semibold">⚠️ Lưu ý:</span> Mỗi người chỉ mở được <span class="text-amber-400 font-bold">1 sổ tiết kiệm</span> tại một thời điểm. Khi sổ đang mở, tiền mặt vẫn dùng bình thường.
+    </div>
+  </div>
+</section>
+
 <!-- ═══════════ GAMES ═══════════ -->
 <section id="games" class="py-20 px-4">
   <div class="max-w-6xl mx-auto">
@@ -329,7 +425,8 @@
       <p class="text-zinc-400 max-w-2xl mx-auto">Những quy tắc quan trọng trong hệ thống economy</p>
     </div>
     <div class="space-y-4">
-      <div class="rounded-xl p-5 border border-emerald-500/30 bg-emerald-500/5 flex gap-4"><span class="text-3xl shrink-0">🏦</span><div><h4 class="font-bold text-white mb-1">Ngân hàng & Lãi suất</h4><p class="text-zinc-400 text-sm leading-relaxed">Gửi tiền vào ngân hàng nhận lãi 0.01% mỗi phút. Tiền lãi lẻ được tích lũy đến khi đủ 1$ mới cộng vào. Không thể gửi thêm khi đang có tiền trong ngân hàng — phải rút hết trước. Nếu bạn bị nợ, tiền trong bank sẽ tự động trừ nợ.</p></div></div>
+      <div class="rounded-xl p-5 border border-emerald-500/30 bg-emerald-500/5 flex gap-4"><span class="text-3xl shrink-0">🏦</span><div><h4 class="font-bold text-white mb-1">Ngân hàng & Lãi suất</h4><p class="text-zinc-400 text-sm leading-relaxed">Dùng <code class="text-amber-400">/nganhang</code> để xem thông tin và hướng dẫn. Dùng <code class="text-amber-400">/guitien</code> để gửi (bỏ trống = gửi hết), <code class="text-amber-400">/ruttien</code> để rút (bỏ trống = rút hết, vượt quá = rút hết). Tiền gửi nhận lãi <b class="text-emerald-400">0.01% mỗi phút</b> — lãi lẻ được tích lũy đến khi đủ 1$. Nếu bạn bị nợ, tiền trong NH tự động trừ nợ.</p></div></div>
+      <div class="rounded-xl p-5 border border-amber-500/30 bg-amber-500/5 flex gap-4"><span class="text-3xl shrink-0">📒</span><div><h4 class="font-bold text-white mb-1">Sổ tiết kiệm <span class="text-amber-400">x10</span></h4><p class="text-zinc-400 text-sm leading-relaxed">Dùng <code class="text-amber-400">/sotietkiem</code> để mở sổ. Tiền gửi vào sổ sẽ bị khóa <b class="text-amber-400">7 ngày</b>. Sau 7 ngày, tiền trong sổ <b class="text-amber-400">nhân 10</b> và tự động chuyển vào tài khoản. Dùng <code class="text-amber-400">/huysotietkiem</code> để hủy trước hạn — chỉ nhận lại tiền gốc (không lãi). Mỗi người chỉ mở được 1 sổ tại một thời điểm.</p></div></div>
       <div class="rounded-xl p-5 border border-red-500/30 bg-red-500/5 flex gap-4"><span class="text-3xl shrink-0">⚠️</span><div><h4 class="font-bold text-white mb-1">Hệ thống nợ</h4><p class="text-zinc-400 text-sm leading-relaxed">Khi số dư âm, bạn đang mắc nợ. Sau 24 giờ nếu chưa trả hết, số nợ sẽ NHÂN ĐÔI. Tiền trong ngân hàng sẽ tự động được dùng để trả nợ. Hãy dùng /work, /daily hoặc nhờ bạn bè /pay để trả nợ.</p></div></div>
       <div class="rounded-xl p-5 border border-purple-500/30 bg-purple-500/5 flex gap-4"><span class="text-3xl shrink-0">🎯</span><div><h4 class="font-bold text-white mb-1">Nghề đặc biệt (Hacker & Điện hạt nhân)</h4><p class="text-zinc-400 text-sm leading-relaxed">Khi server đạt lần /work thứ 50, người dùng lệnh /work lần đó được làm 1 trong 2 nghề đặc biệt (ngẫu nhiên). Hacker: hack ngân hàng +10.000$ / FBI gõ cửa -15.000$ (50% thất bại). Điện hạt nhân: +30.000$ / nổ nhà máy -50.000$ (10% thất bại). Đây là cơ hội 1 lần, không mở khóa vĩnh viễn.</p></div></div>
       <div class="rounded-xl p-5 border border-amber-500/30 bg-amber-500/5 flex gap-4"><span class="text-3xl shrink-0">📜</span><div><h4 class="font-bold text-white mb-1">Chứng chỉ lành nghề</h4><p class="text-zinc-400 text-sm leading-relaxed">Làm đủ 100 lần một nghề thường để nhận Chứng chỉ lành nghề, giảm 10% tỉ lệ thất bại cho nghề đó. Mỗi nghề chỉ nhận 1 chứng chỉ. Riêng 2 nghề đặc biệt (Hacker, Điện hạt nhân) chỉ cần 10 lần để nhận chứng chỉ.</p></div></div>
@@ -356,14 +453,15 @@
 
 <!-- ═══════════ FOOTER ═══════════ -->
 <footer class="py-8 border-t border-white/5 text-center text-zinc-500 text-sm">
-  <p>🏦 HMQ-Economy Beta 1 — Hệ thống kinh tế Discord tiếng Việt</p>
-  <p class="mt-1">Sử dụng Discord.js • SQLite • Node.js</p>
+  <p>🏦 HMQ-Economy Beta 1.1 — Hệ thống kinh tế Discord tiếng Việt</p>
+  <p class="mt-1">Ngân hàng • Sổ tiết kiệm x10 • 11 nghề • Chứng chỉ • Casino • Vé số</p>
+  <p class="mt-1 text-xs text-zinc-600">Sử dụng Discord.js • SQLite • Node.js</p>
 </footer>
 
 <!-- Navbar active state script -->
 <script>
   const navLinks = document.querySelectorAll('.nav-link');
-  const sections = ['hero','commands','jobs','games','rules'];
+  const sections = ['hero','commands','jobs','savings','games','rules'];
 
   function updateActive() {
     let current = 'hero';
